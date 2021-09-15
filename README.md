@@ -14,7 +14,7 @@ import typosquatter from 'https://deno.land/x/typosquatter/mod.ts';
 
 let obj = typosquatter({foo: {bar: {baz: 'lol'}}});
 
-console.log(obj.fo.ba.bz.substrng(1)); // => lol
+console.log(obj.fo.ba.bz.substrng(1)); // => ol
 ```
 
 See? No more typos et al.
